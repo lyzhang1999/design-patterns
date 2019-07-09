@@ -2,20 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ab80fee-c3cd-4df3-9a6e-b03f3a8af1d6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/codes/Singleton.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/build.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/decorative.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/decorative1.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/factory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/iteration.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/observer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/outward.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/ploy.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/prototype.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/proxy.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/simple_factory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/template.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/brige.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/read.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,11 +28,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/codes/Singleton.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+            <state relative-caret-position="-34">
+              <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/codes/brige.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="398">
+              <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/files/read.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="-685">
+                <caret column="9" selection-start-column="9" selection-end-column="9" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -82,22 +92,13 @@
         <option value="$PROJECT_DIR$/codes/observer.php" />
         <option value="$PROJECT_DIR$/codes/iteration.php" />
         <option value="$PROJECT_DIR$/codes/Singleton.php" />
+        <option value="$PROJECT_DIR$/codes/brige.php" />
+        <option value="$PROJECT_DIR$/files/read.md" />
       </list>
     </option>
   </component>
   <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.1" />
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/design-patterns.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-        <option value="$PROJECT_DIR$/.idea/php.xml" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1920" />
@@ -123,6 +124,11 @@
               <item name="design-patterns" type="462c0819:PsiDirectoryNode" />
               <item name="codes" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="design-patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design-patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="files" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -132,6 +138,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -155,8 +162,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHP Script.Singleton.php">
+  <component name="RunManager" selected="PHP Script.brige.php">
     <configuration name="Singleton.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/codes/Singleton.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="brige.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/codes/brige.php">
       <method v="2" />
     </configuration>
     <configuration name="build.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/codes/build.php">
@@ -168,16 +178,13 @@
     <configuration name="outward.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/codes/outward.php">
       <method v="2" />
     </configuration>
-    <configuration name="template.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/codes/template.php">
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP Script.brige.php" />
         <item itemvalue="PHP Script.Singleton.php" />
         <item itemvalue="PHP Script.iteration.php" />
         <item itemvalue="PHP Script.build.php" />
         <item itemvalue="PHP Script.outward.php" />
-        <item itemvalue="PHP Script.template.php" />
       </list>
     </recent_temporary>
   </component>
@@ -191,12 +198,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1562231757888</updated>
-      <workItem from="1562231759305" duration="24225000" />
+      <workItem from="1562231759305" duration="25546000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24225000" />
+    <option name="totallyTimeSpent" value="25546000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -346,8 +353,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/codes/Singleton.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+        <state relative-caret-position="-34">
+          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codes/brige.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/files/read.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-685">
+            <caret column="9" selection-start-column="9" selection-end-column="9" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
